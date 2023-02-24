@@ -1,0 +1,20 @@
+.b {
+
+  border-radius: 50px;
+  transform: translate(-42px);
+}
+.name {
+  transform: translate(-20px, -20px);
+  background-color: #afcfdd;
+  background-color: transparent;
+  color: transparent;
+  font-size: 1px;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  padding-left: 50px;
+  align-items: center;
+  border-radius: 50px;
+  transition: width 0.5s ease-in-out 0s;
+  transition-delay: -0.5s;
+}
