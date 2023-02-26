@@ -8,10 +8,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex bg-white w-full h-screen text-[#9da5ac]">
-      <Header />
+    <div>
       <Home />
-      <Footer />
     </div>
   );
 }

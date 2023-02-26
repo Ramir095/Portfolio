@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-32 h-screen flex flex-col items-center justify-between py-10 relative">
+    <div className="bg-[#2A2C39] w-[120px] h-screen flex flex-col items-center justify-between py-10 fixed">
       <div className="space-y-6 h-full absolute">
-        <div className="flex w-14 h-14 overflow-hidden cursor-pointer hover:w-28 hover:ml-14 duration-100 transition-all">
+        <div className="flex w-14 h-14 overflow-hidden cursor-pointer hover:w-28 hover:ml-14 duration-300 transition-all">
           <img
             src="https://icongr.am/fontawesome/laptop.svg?size=128&color=9da5ac"
             alt="img de laptop"
@@ -17,7 +17,7 @@ const Header = () => {
 
         <div className="flex flex-col items-center space-y-4">
 
-          <div className="flex w-8 h-8 overflow-hidden cursor-pointer hover:w-32 hover:ml-24 duration-100 transition-all absolute hover:bg-yellow-100 hover:rounded-xl">
+          <div className="flex w-8 h-8 overflow-hidden cursor-pointer hover:w-32 hover:ml-24 duration-300 transition-all absolute hover:bg-[#2A2C39] hover:rounded-xl">
             <img
               src="https://icongr.am/fontawesome/briefcase.svg?size=128&color=9da5ac"
               alt="img de portafolio"
@@ -28,7 +28,7 @@ const Header = () => {
             </a>
           </div>
 
-          <div className="flex w-8 h-8 overflow-hidden cursor-pointer top-[118px] hover:w-36 hover:ml-28 duration-100 transition-all absolute hover:bg-yellow-100 hover:rounded-xl">
+          <div className="flex w-8 h-8 overflow-hidden cursor-pointer top-[118px] hover:w-36 hover:ml-28 duration-300 transition-all absolute hover:bg-[#2A2C39] hover:rounded-xl">
             <img
               src="https://icongr.am/fontawesome/file-code-o.svg?size=128&color=9da5ac"
               alt="img de habilidades"
