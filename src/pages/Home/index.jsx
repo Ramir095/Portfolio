@@ -29,7 +29,7 @@ const Home = () => {
               className="w-60 h-[22rem]"
             />
 
-            <div className="flex flex-col h-40 mt-14 items-center">
+            <div className="flex flex-col h-40 mt-8  items-center">
 
               <div>
                 <h1 className="text-5xl">¡Hola! Soy</h1>
