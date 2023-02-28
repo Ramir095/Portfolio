@@ -2,8 +2,12 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-[#2A2C39] w-[120px] h-screen flex flex-col items-center justify-between py-10 fixed">
-      <div className="space-y-6 h-full absolute">
+    <div className="bg-[#2A2C39] md:w-[120px] md:h-screen md:flex md:flex-col md:items-center md:justify-between py-10 fixed w-full h-5">
+
+
+
+      <div className="md:space-y-6 md:h-full md:absolute">
+        
         <div className="flex w-14 h-14 overflow-hidden cursor-pointer hover:w-28 hover:ml-14 duration-300 transition-all">
           <img
             src="https://icongr.am/fontawesome/laptop.svg?size=128&color=9da5ac"
@@ -16,7 +20,6 @@ const Header = () => {
         </div>
 
         <div className="flex flex-col items-center space-y-4">
-
           <div className="flex w-8 h-8 overflow-hidden cursor-pointer hover:w-32 hover:ml-24 duration-300 transition-all absolute hover:bg-[#2A2C39] hover:rounded-xl">
             <img
               src="https://icongr.am/fontawesome/briefcase.svg?size=128&color=9da5ac"
@@ -38,7 +41,6 @@ const Header = () => {
               <p className="flex ml-2 items-center text-lg">Habilidades</p>
             </a>
           </div>
-
         </div>
       </div>
       <div className="flex flex-col justify-end space-y-3 w-full items-center absolute bottom-8">
