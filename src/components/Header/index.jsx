@@ -4,8 +4,6 @@ const Header = () => {
   return (
     <div className="bg-[#2A2C39] md:w-[120px] md:h-screen md:flex md:flex-col md:items-center md:justify-between py-10 fixed w-full h-5">
 
-
-
       <div className="md:space-y-6 md:h-full md:absolute">
         
         <div className="flex w-14 h-14 overflow-hidden cursor-pointer hover:w-28 hover:ml-14 duration-300 transition-all">
@@ -45,7 +43,9 @@ const Header = () => {
       </div>
       <div className="flex flex-col justify-end space-y-3 w-full items-center absolute bottom-8">
         {new Array(6).fill(0).map((_dot) => (
+          
           <div className="border-4 border-[#9da5ac00] rounded-xl hover:border-[#9da5ac] cursor-pointer transition-all duration-100  hover:bg-[#9da5ac]">
+            
             <div className="w-3 h-3 bg-[#9da5ac] rounded-lg"></div>
           </div>
         ))}
