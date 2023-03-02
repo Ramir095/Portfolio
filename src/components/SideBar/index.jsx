@@ -4,7 +4,7 @@ const SideBar = () => {
 //PRINCIPAL SIDEBAR
   return (
     <div className="bg-[#2A2C39] w-full fixed h-16 z-10 
-    md:w-[7.5rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between">
+    md:w-[6rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between">
 
       <div className="flex h-full justify-between items-center px-4 text-[1rem] md:space-y-6 md:h-full md:absolute">
 
