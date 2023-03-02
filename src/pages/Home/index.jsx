@@ -1,49 +1,55 @@
+import { useEffect, useRef } from "react";
+import { useIntersectionObserver } from "usehooks-ts";
+
 import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Portfolio from "../../components/Portfolio";
 import perfil from "../../assets/perfil.png";
 import SideBar from "../../components/SideBar";
-import { useState } from "react";
 
 const Home = () => {
-  const [circle, setCircle] = useState(false);
+  const ref = useRef(null);
+  const entry = useIntersectionObserver(ref, {});
+  const isVisible = !!entry?.isIntersecting;
 
-  console.log({ circle });
+  useEffect(() => {
+    console.log(isVisible);
+  }, [isVisible]);
 
   return (
     <div className="md:flex bg-[#2E3140] text-[#F2F2F2]">
       {/* <Header circle={circle} /> */}
       <SideBar />
 
-      <div className="w-full h-screen">
-        <div className="h-screen w-full flex justify-center items-center flex-col md:flex-row-reverse">
-
-          <div className=" md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-500 md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem]">
-
-            <div className="relative rounded-full w-[16rem] h-[16rem] border-solid border-t-2 border-r-2 border-gray-500 border-l-2 border-l-[#2E3140] mt-10 md:h-[28rem] md:w-[28rem] md:right-[-3rem] md:top-3">
-              
-              <div className="md:relative md:w-[20rem] md:h-[20rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-500 md:right-[-3rem] md:top-16">
-
+      <div className="w-screen h-screen md:ml-[6rem]">
+        <div className="h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse flex-wrap md:justify-center md:mr-[11rem]">
+          <div
+            className="md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700  md:border-l-2 md:border-l-[#2E3140] md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem] md:ml-[-8rem]"
+            ref={ref}
+          >
+            <div className="relative rounded-full w-[16rem] h-[16rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-10 md:h-[29rem] md:w-[29rem] md:right-[-2.5rem] md:top-1 ">
+              <div className="md:relative md:w-[30rem] md:h-[24rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700 md:border-l-8 md:border-l-[#2E3140] md:right-[5rem] md:top-12">
                 <img
                   src={perfil}
                   alt="perfil"
-                  className="w-60 h-[22rem] ml-[-40px] absolute bottom-[-2rem] md:w-[28rem] md:h-[36rem] md:top-[-10rem]"
+                  className="w-60 h-[22rem] ml-[-40px] absolute bottom-[-2rem] md:w-[30rem] md:h-[36rem] md:top-[-8rem]"
                 />
 
                 <div>
                   <a
-                    className="absolute right-[4.5rem] top-[-1.2rem] bg-[#2E3140]"
                     href="https://www.example.com"
                     target="_blank"
+                    className="absolute right-[4.5rem] top-[-1.2rem] bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[5rem] md:top-[-4.5rem]"
                   >
                     <img
                       src="https://icongr.am/fontawesome/linkedin.svg?size=35&color=F2F2F2"
                       alt="linkedin"
+                      className="md:w-[1.6rem] md:mb-1"
                     />
                   </a>
                   <a
-                    className="absolute right-2 top-6 bg-[#2E3140]"
+                    className="absolute right-2 top-6 bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[-2.5rem] md:top-2"
                     href="https://www.example.com"
                     target="_blank"
                   >
@@ -53,7 +59,7 @@ const Home = () => {
                     />
                   </a>
                   <a
-                    className="absolute right-[-1rem] top-[6.5rem] bg-[#2E3140]"
+                    className="absolute right-[-1rem] top-[6.5rem] bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[-5.5rem] md:top-[9.7rem]"
                     href="https://www.example.com"
                     target="_blank"
                   >
@@ -63,27 +69,25 @@ const Home = () => {
                     />
                   </a>
                   <a
-                    className="absolute right-2 top-[11.8rem] bg-[#2E3140]"
+                    className="absolute right-2 top-[11.8rem] bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[-2.5rem] md:top-[18.5rem]"
                     href="https://www.example.com"
                     target="_blank"
                   >
                     <img
                       src="https://icongr.am/fontawesome/address-book.svg?size=35&color=F2F2F2"
                       alt="Cualquiera"
+                      className="md:w-[1.7rem]"
                     />
                   </a>
                 </div>
-
               </div>
-
             </div>
-
           </div>
 
-          <div className="flex flex-col h-40 mt-14 items-center text-center">
+          <div className="flex flex-col h-40 mt-14 items-center text-center md:h-full md:mt-0 md:pt-8 md:justify-evenly ">
             <div>
               <h1 className="text-5xl">¡Hola! Soy</h1>
-              <h1 className="text-5xl text-[#8EBF45]">Ramiro Aduviri</h1>
+              <h1 className="text-5xl text-[#8EBF45] md:text-8xl">Ramiro Aduviri</h1>
               <h2 className="text-2xl pt-3">Full Stack Developer</h2>
             </div>
 
@@ -102,11 +106,17 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Skills />
-        <Portfolio />
-      </div>
 
-      <Footer />
+        <div className="relative flex w-full">
+          <div className="w-full">
+            <Skills />
+            <Portfolio />
+          </div>
+          <Footer />
+          {/* {!isVisible && <Footer />} */}
+        </div>
+
+      </div>
     </div>
   );
 };
