@@ -1,4 +1,7 @@
 import dev from "../../assets/dev.png";
+import git from "../../assets/git.svg";
+import skills from "../../assets/skills.svg";
+import about from "../../assets/about.svg";
 
 const SideBar = () => {
   return (
@@ -9,39 +12,50 @@ const SideBar = () => {
 
         <img className="md:hidden w-[2.5rem] h-[2.5rem]" src={dev} alt="logo en construccion" />
         {/* md:bg-slate-300 md:w-14 md:h-14 md:overflow-hidden md:cursor-pointer md:hover:w-28 md:hover:ml-14 md:duration-300 md:flex-col */}
-        <div className="flex items-center w-[17rem] justify-between md:flex-col md:space-y-4 ">
+        <div className="flex items-center w-[15rem] justify-between md:flex-col md:space-y-4 ">
           
-          <div className="md:flex md:w-11 md:h-11 md:overflow-hidden md:cursor-pointer md:hover:w-36  md:hover:ml-[6.3rem] md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:top-[1.5rem]">
+          <div className="hidden md:flex md:w-14 md:h-14 md:overflow-hidden md:cursor-pointer md:hover:w-36  md:hover:ml-[5.5rem] md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:top-[1.5rem] md:hover:rounded-xl">
               <img
-                src="https://icongr.am/fontawesome/laptop.svg?size=128&color=9da5ac"
+                src={git}
                 alt="img de laptop"
                 className="hidden md:block"
               />
 
-            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-2 md:text-lg" href="#home">
-              <p>Contacto</p>
+            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-4 md:text-lg" href="#home">
+              <p>Inicio</p>
             </a>
           </div>
 
-          <div className="md:flex md:w-8 md:h-8 md:overflow-hidden md:cursor-pointer md:top-[4rem] md:hover:w-36 md:hover:ml-28 md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:hover:rounded-xl">
+          <div className="md:flex md:w-9 md:h-9 md:overflow-hidden md:cursor-pointer md:top-[6rem] md:hover:w-44 md:hover:ml-[8.8rem] md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:hover:rounded-xl">
             <img
-                src="https://icongr.am/fontawesome/briefcase.svg?size=128&color=9da5ac"
+                src={skills}
                 alt="img de portafolio"
-                className="hidden md:block w-8 cursor-pointer"
+                className="hidden md:block w-9 cursor-pointer"
             />
-            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-3 md:text-lg" href="#portafolio">
-              <p>Proyectos</p>
+            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-4 md:text-lg" href="#portafolio">
+              <p>Habilidades</p>
             </a>
           </div>
 
-          <div className="md:flex md:w-8 md:h-8 md:overflow-hidden md:cursor-pointer md:top-[7rem] md:hover:w-36 md:hover:ml-28 md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:hover:rounded-xl">
+          <div className="md:flex md:w-9 md:h-9 md:overflow-hidden md:cursor-pointer md:top-[9rem] md:hover:w-44 md:hover:ml-[8.8rem] md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:hover:rounded-xl">
+           <img
+              src={about}
+              alt="img de habilidades"
+              className="hidden md:block cursor-pointer"
+            />
+            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-9 md:text-lg" href="#habilidades">
+              <p>Datos</p>
+            </a>
+          </div>
+
+          <div className="md:flex md:w-8 md:h-8 md:overflow-hidden md:cursor-pointer md:top-[12rem] md:hover:w-44 md:hover:ml-[9rem] md:duration-300 md:transition-all md:absolute md:hover:bg-[#2A2C39] md:hover:rounded-xl">
            <img
               src="https://icongr.am/fontawesome/file-code-o.svg?size=128&color=9da5ac"
               alt="img de habilidades"
               className="hidden md:block w-8 cursor-pointer"
             />
-            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-2 md:text-lg" href="#habilidades">
-              <p>Habilidades</p>
+            <a className="hover:text-[#8EBF45] md:flex md:items-center md:ml-7 md:text-lg" href="#habilidades">
+              <p>Proyectos</p>
             </a>
           </div>
           

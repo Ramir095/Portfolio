@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <a
           href="https://github.com/Ramir095"
-          target={"_blank"}
+          target="_blank"
           rel="noopener noreferrer"
         >
           <div
@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/kevin-aduviri-b9b964234/"
-          target={"_blank"}
+          target="_blank"
           rel="noopener noreferrer"
         >
           <div
