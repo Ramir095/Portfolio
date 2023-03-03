@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="w-full h-screen bg-[#2E3140] text-white flex justify-center items-center">
       <div className="text-center">
-        <h1>Kevin Ramiro Aduviri</h1>
+        <h1>Breve presentación de mi persona y presentación mis habilidades</h1>
 
         <div className="flex items-center justify-center bg-red-900">
           <img 
