@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="w-full h-screen bg-[#2E3140] text-white flex justify-center items-center">
+    <div className="w-full h-screen bg-[#2E3140] text-white flex justify-center items-center" id="skills">
       <div className="text-center">
         <h1>Breve presentación de mi persona y presentación mis habilidades</h1>
 
