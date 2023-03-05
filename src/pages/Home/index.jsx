@@ -5,6 +5,7 @@ import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import Proyects from "../../components/Proyects";
 import SideBar from "../../components/SideBar";
+import About from "../../components/About";
 
 const Home = () => {
   // const ref = useRef(null);
@@ -22,6 +23,7 @@ const Home = () => {
         <Presentation />
         <div className="relative flex w-full">
           <div className="w-full">
+            <About />
             <Skills />
             <Proyects />
           </div>
