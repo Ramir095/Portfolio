@@ -1,15 +1,13 @@
 import perfil from "../../assets/perfil.png";
-import linkedin from "../../assets/linkedin.svg";
-import github from "../../assets/github.svg";
-import twitter from "../../assets/twitter.svg";
 import download from "../../assets/download.svg";
-import email from "../../assets/mail.svg"
 import curriculum from "../../assets/aprendiendo-git.pdf"
+
+const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center"
+
 
 const Presentation = () => {
   return (
-    <div className="h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse md:justify-center md:mr-[11rem]" id="home">
-      {/* flex-wrap */}
+    <div className="h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse md:justify-center md:mr-[11rem] flex-wrap" id="home">
       <div className="md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700  md:border-l-2 md:border-l-[#2E3140] md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem] md:ml-[-8rem]">
         <div className="relative rounded-full w-[16rem] h-[16rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-10 md:h-[29rem] md:w-[29rem] md:right-[-2.5rem] md:top-1 ">
           <div className="md:relative md:w-[30rem] md:h-[24rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700 md:border-l-8 md:border-l-[#2E3140] md:right-[5rem] md:top-12">
@@ -20,53 +18,41 @@ const Presentation = () => {
             />
 
             <div>
+
               <a
                 href="https://www.linkedin.com/in/kevin-aduviri-b9b964234/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute right-[4.6rem] top-[-1.1rem] bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[5rem] md:top-[-4.5rem]"
+                className={`absolute right-[4.6rem] top-[-1.1rem] md:right-[5rem] md:top-[-4.5rem] ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 md:transition-all`}
               >
-                <img
-                  src={linkedin}
-                  alt="linkedin"
-                  className="w-[1.9rem] md:w-[1.5rem] md:mb-1"
-                />
+               <i className="fa-brands fa-linkedin-in text-[2.1rem] md:text-[1.65rem] md:mb-0.5"></i>
               </a>
+
               <a
-                className="absolute right-3 top-6 bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[-2.5rem] md:top-2"
+                className={`absolute right-0.5 top-8 md:right-[-2.8rem] md:top-2 ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all`}
                 href="https://github.com/Ramir095"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                <img
-                  src={github}
-                  alt="Github"
-                  className="w-[2rem] md:w-[2.1rem]"
-                />
+                <i className="fa-brands fa-github text-[2rem] md:text-[2rem]"></i>
               </a>
+
               <a
-                className="absolute right-[-1rem] top-[6.5rem] bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[-5.5rem] md:top-[9.7rem]"
+                className={`absolute right-[-1.2rem] top-[6.9rem] md:right-[-5.5rem] md:top-[9.7rem] ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all`}
                 href="https://twitter.com/KeduDev"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={twitter}
-                  alt="Twitter"
-                  className="w-[1.9rem] md:w-[1.8rem]"
-                />
+                <i className="fa-brands fa-twitter text-[2rem] md:text-[1.7rem] md:mt-0.5"></i>
               </a>
               <a
-                className="absolute right-3 top-[11.7rem] bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:right-[-2.5rem] md:top-[18.5rem]"
+                className={`absolute right-2 top-[11.7rem] md:right-[-2.5rem] md:top-[18.5rem] ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all`}
                 href="mailto:contacto@rama-dev.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={email}
-                  alt="Cualquiera"
-                  className="w-[1.9rem] md:w-[1.7rem] md:mb-1"
-                />
+                <i className="fa-solid fa-envelope-circle-check text-[1.7rem]
+                md:text-[1.5rem] md:ml-1 md:mb-0.5"></i>
               </a>
             </div>
           </div>
