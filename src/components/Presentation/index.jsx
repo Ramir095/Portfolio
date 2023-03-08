@@ -2,7 +2,7 @@ import perfil from "../../assets/perfil.png";
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/aprendiendo-git.pdf"
 
-const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center"
+const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all"
 
 
 const Presentation = () => {
@@ -23,13 +23,13 @@ const Presentation = () => {
                 href="https://www.linkedin.com/in/kevin-aduviri-b9b964234/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`absolute right-[4.6rem] top-[-1.1rem] md:right-[5rem] md:top-[-4.5rem] ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 md:transition-all`}
+                className={`absolute right-[4.6rem] top-[-1.1rem] md:right-[5rem] md:top-[-4.5rem] ${commonClass}`}
               >
                <i className="fa-brands fa-linkedin-in text-[2.1rem] md:text-[1.65rem] md:mb-0.5"></i>
               </a>
 
               <a
-                className={`absolute right-0.5 top-8 md:right-[-2.8rem] md:top-2 ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all`}
+                className={`absolute right-0.5 top-8 md:right-[-2.8rem] md:top-2 ${commonClass}`}
                 href="https://github.com/Ramir095"
                 target={"_blank"}
                 rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Presentation = () => {
               </a>
 
               <a
-                className={`absolute right-[-1.2rem] top-[6.9rem] md:right-[-5.5rem] md:top-[9.7rem] ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all`}
+                className={`absolute right-[-1.2rem] top-[6.9rem] md:right-[-5.5rem] md:top-[9.7rem] ${commonClass}`}
                 href="https://twitter.com/KeduDev"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -46,7 +46,7 @@ const Presentation = () => {
                 <i className="fa-brands fa-twitter text-[2rem] md:text-[1.7rem] md:mt-0.5"></i>
               </a>
               <a
-                className={`absolute right-2 top-[11.7rem] md:right-[-2.5rem] md:top-[18.5rem] ${commonClass} md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all`}
+                className={`absolute right-2 top-[11.7rem] md:right-[-2.5rem] md:top-[18.5rem] ${commonClass}`}
                 href="mailto:contacto@rama-dev.com"
                 target="_blank"
                 rel="noopener noreferrer"
