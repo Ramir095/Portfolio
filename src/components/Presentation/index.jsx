@@ -1,7 +1,10 @@
+import Circle from "../Circle";
+
 import perfil from "../../assets/perfil.png";
+import lineado from "../../assets/Lineado.png"
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/aprendiendo-git.pdf"
-import Circle from "../Circle";
+
 
 const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all"
 
@@ -27,7 +30,6 @@ const Presentation = () => {
             />
 
             <div>
-
               <a
                 href="https://www.linkedin.com/in/kevin-aduviri-b9b964234/"
                 target="_blank"
@@ -68,12 +70,18 @@ const Presentation = () => {
         </div>
       </div>
         
-      <div className="flex flex-col h-40 mt-14 items-center text-center md:h-full md:mt-0 md:pt-8 md:justify-evenly md:items-start md:text-start md:w-auto">
+      <div className="flex flex-col h-40 mt-14 items-center text-center md:h-full md:mt-0 md:pt-8 md:justify-evenly md:items-start md:text-start">
         <div className="font-['Cormorant'] z-0">
           <h1 className="text-5xl md:text-6xl">¡Hola! Soy</h1>
-          <h1 className="text-5xl text-[#8EBF45] md:text-8xl">
-            Ramiro Aduviri
-          </h1>
+
+          <h2 className="flex text-5xl text-[#8EBF45] md:text-8xl">
+            Ramiro
+            <span className="block pl-[0.57rem] md:pl-[1.14rem]">
+              Aduviri
+              <div className="hidden md:block absolute w-[19rem] ml-[-1rem] h-5 bg-[url('https://htmldemo.net/lendex/lendex/assets/images/icon/hero-name-mark-shape.png')] mt-[-0.2rem]">
+              </div>
+            </span> 
+          </h2>
           <h2 className="text-2xl pt-3 font-['Poppins']">
             Full Stack Developer
           </h2>
