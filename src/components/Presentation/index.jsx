@@ -1,6 +1,7 @@
 import perfil from "../../assets/perfil.png";
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/aprendiendo-git.pdf"
+import Circle from "../Circle";
 
 const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all"
 
@@ -8,9 +9,17 @@ const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md
 const Presentation = () => {
   return (
     <div className="h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse md:justify-center md:mr-[11rem] flex-wrap" id="home">
+
+      <Circle big={"md:top-[-21rem] md:left-[-11rem]"} medium={"top-[-15.3rem] left-[-6rem]"} small={"top-[-14.3rem] left-[-5rem]"} />
+
+      <Circle big={"md:bottom-[-21rem] md:left-[-11rem]"} medium={"bottom-[-15.3rem] left-[-6rem]"} small={"bottom-[-14.3rem] left-[-5rem]"}/>
+
       <div className="md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700  md:border-l-2 md:border-l-[#2E3140] md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem] md:ml-[-8rem]">
+
         <div className="relative rounded-full w-[16rem] h-[16rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-10 md:h-[29rem] md:w-[29rem] md:right-[-2.5rem] md:top-1 ">
+
           <div className="md:relative md:w-[30rem] md:h-[24rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700 md:border-l-8 md:border-l-[#2E3140] md:right-[5rem] md:top-12">
+
             <img
               src={perfil}
               alt="perfil"
@@ -58,9 +67,9 @@ const Presentation = () => {
           </div>
         </div>
       </div>
-
+        
       <div className="flex flex-col h-40 mt-14 items-center text-center md:h-full md:mt-0 md:pt-8 md:justify-evenly md:items-start md:text-start md:w-auto">
-        <div className="font-['Cormorant']">
+        <div className="font-['Cormorant'] z-0">
           <h1 className="text-5xl md:text-6xl">¡Hola! Soy</h1>
           <h1 className="text-5xl text-[#8EBF45] md:text-8xl">
             Ramiro Aduviri
@@ -70,11 +79,11 @@ const Presentation = () => {
           </h2>
         </div>
 
-        <div className="flex justify-start items-center mt-8">
+        <div className="flex justify-start items-center mt-8 z-0">
           <a
             href={curriculum}
             download="aprendiendo-git.pdf"
-            className="w-[242px] h-[85px] border-solid border-[1px] border-[#3b3d49] rounded-[42px] flex justify-center items-center hover:bg-[#2A2C39] transition-all duration-[0.5s] hover:border-none"
+            className="w-[242px] h-[85px] border-solid border-[1px] border-[#3b3d49] rounded-[42px] flex justify-center items-center bg-[#2E3140] hover:bg-[#2A2C39] transition-all duration-[0.5s] hover:border-none"
           >
             <p>Ver Curriculum</p>
             <img

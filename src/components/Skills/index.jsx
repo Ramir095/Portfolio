@@ -4,6 +4,8 @@ const Skills = () => {
       <div className="text-center">
         <h1>Breve presentación de mi persona y presentación mis habilidades</h1>
 
+        {/* En el curriculum, arriba va la experiencia y lo que he conseguido. luego recien va la educacion */}
+
         <div className="flex items-center justify-center bg-red-900">
           <img 
             src="https://icongr.am/fontawesome/map-marker.svg?size=128&color=F2F2F2" alt="location"
