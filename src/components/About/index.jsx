@@ -58,8 +58,7 @@ const About = () => {
               
             </p>
             <p>
-              Si estás buscando a alguien apasionado por el frontend que pueda
-              ayudarte a llevar tus proyectos al siguiente nivel, ¡no dudes en
+              Si estás buscando a alguien que pueda ayudarte a llevar tus proyectos al siguiente nivel, ¡no dudes en
               contactarme!.
             </p>
 
