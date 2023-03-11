@@ -3,9 +3,9 @@ import { useIntersectionObserver } from "usehooks-ts";
 import Presentation from "../../components/Presentation";
 import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
-import Proyects from "../../components/Proyects";
 import SideBar from "../../components/SideBar";
 import About from "../../components/About";
+import Proyects from "../Proyects";
 
 const Home = () => {
   // const ref = useRef(null);

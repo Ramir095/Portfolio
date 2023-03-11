@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Circle = ({big, medium, small}) => {
   return (
     <div>
