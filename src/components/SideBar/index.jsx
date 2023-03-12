@@ -29,7 +29,7 @@ const SideBar = () => {
         <div className="flex items-center w-[15rem] justify-between md:flex-col md:space-y-3">
 
           <Link
-            to="about" spy={true} smooth={true} offset={-70} duration={500}
+            to="about" spy={true} smooth={true} offset={0} duration={500}
           >
             <div className="cursor-pointer md:flex md:w-[2.1rem] md:h-[2.1rem] md:overflow-hidden md:cursor-pointer md:hover:w-44 md:duration-300 md:transition-all md:hover:bg-[#2A2C39] md:hover:rounded-xl md:hover:ml-[8.9rem]">
               <img
