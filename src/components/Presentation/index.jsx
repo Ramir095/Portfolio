@@ -1,9 +1,9 @@
 import Circle from "../Circle";
 
 import perfil from "../../assets/perfil.png";
-import lineado from "../../assets/Lineado.png"
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/aprendiendo-git.pdf"
+import profile from "../../assets/portrait.webp"
 
 
 const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all"
@@ -17,16 +17,16 @@ const Presentation = () => {
 
       <Circle big={"md:bottom-[-21rem] md:left-[-11rem]"} medium={"bottom-[-15.3rem] left-[-6rem]"} small={"bottom-[-14.3rem] left-[-5rem]"}/>
 
-      <div className="md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700  md:border-l-2 md:border-l-[#2E3140] md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem] md:ml-[-8rem]">
+      <div className="md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700  md:border-l-2 md:border-b-[1px] md:border-l-[#2E3140] md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem] md:ml-[-8rem]">
 
         <div className="relative rounded-full w-[16rem] h-[16rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-10 md:h-[29rem] md:w-[29rem] md:right-[-2.5rem] md:top-1 ">
 
-          <div className="md:relative md:w-[30rem] md:h-[24rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700 md:border-l-8 md:border-l-[#2E3140] md:right-[5rem] md:top-12">
+          <div className="md:relative md:w-[30rem] md:h-[24rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700 md:border-l-8 md:border-l-[#2E3140] md:border-b-[1px] md:right-[5rem] md:top-12">
 
             <img
               src={perfil}
               alt="perfil"
-              className="w-60 h-[22rem] ml-[-40px] absolute bottom-[-2rem] md:w-[30rem] md:h-[36rem] md:top-[-8rem]"
+              className="w-60 h-[22rem] ml-[-40px] absolute bottom-[-2rem] md:w-[30rem] md:h-[42rem] md:top-[-7rem]"
             />
 
             <div>
