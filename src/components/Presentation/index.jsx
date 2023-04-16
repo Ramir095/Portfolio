@@ -2,7 +2,7 @@ import Circle from "../Circle";
 
 import perfil from "../../assets/perfil.png";
 import download from "../../assets/download.svg";
-import curriculum from "../../assets/aprendiendo-git.pdf"
+import curriculum from "../../assets/Kevin_Aduviri_CV.pdf"
 import profile from "../../assets/portrait.webp"
 
 
@@ -11,7 +11,7 @@ const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md
 
 const Presentation = () => {
   return (
-    <div className="h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse md:justify-center md:mr-[11rem] flex-wrap" id="home">
+    <div className=" h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse md:justify-center md:mr-[11rem] flex-wrap" id="home">
 
       <Circle big={"md:top-[-21rem] md:left-[-11rem]"} medium={"top-[-15.3rem] left-[-6rem]"} small={"top-[-14.3rem] left-[-5rem]"} />
 
@@ -31,7 +31,7 @@ const Presentation = () => {
 
             <div>
               <a
-                href="https://www.linkedin.com/in/kevin-aduviri-b9b964234/"
+                href="https://www.linkedin.com/in/ramiro-aduviri/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`absolute right-[4.6rem] top-[-1.1rem] md:right-[5rem] md:top-[-4.5rem] ${commonClass}`}
@@ -90,7 +90,7 @@ const Presentation = () => {
         <div className="flex justify-start items-center mt-8 z-0">
           <a
             href={curriculum}
-            download="aprendiendo-git.pdf"
+            download="Kevin_Aduviri_CV.pdf"
             className="w-[242px] h-[85px] border-solid border-[1px] border-[#3b3d49] rounded-[42px] flex justify-center items-center bg-[#2E3140] hover:bg-[#2A2C39] transition-all duration-[0.5s] hover:border-none"
           >
             <p>Ver Curriculum</p>
