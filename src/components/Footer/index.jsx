@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </a>
         <a
-          href="https://www.linkedin.com/in/kevin-aduviri-b9b964234/"
+          href="https://www.linkedin.com/in/ramiro-aduviri/"
           target="_blank"
           rel="noopener noreferrer"
         >
