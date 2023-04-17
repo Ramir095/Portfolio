@@ -15,13 +15,13 @@ const About = () => {
             <p>Lado izquierdo</p>
           </div>
 
-          <div className="md:w-1/2 flex justify-center items-center">
+          <div className="md:w-1/2 flex justify-center items-center mt-10">
 
-            <div className="px-4 space-y-4 w-[90%] md:px-0">
+            <div className="px-4 space-y-7 w-[90%] md:px-0">
 
               <h1 className="text-2xl md:text-4xl font-['Cormorant']">Kevin Ramiro Aduviri</h1>
 
-              <div>
+              <div >
                 
                 <div className="flex items-center justify-center">
                   <img
@@ -53,21 +53,15 @@ const About = () => {
               </div>
 
 
-              <ul className="space-y-4">
+              <ul className="space-y-7">
                 <li>Apasionado por el frontend, por la creación de experiencias
-                visuales, atractivas y funcionales para el usuario.</li>
+                visuales atractivas y funcionales para el usuario.</li>
                 <li>Enfocado en
                 mejorar mis habilidades para ofrecer soluciones más efectivas a
                 mis proyectos.</li>
+                <li>Si estás buscando a alguien que pueda ayudarte a llevar tus proyectos al siguiente nivel, ¡no dudes en
+                contactarme!.</li>
               </ul>
-              <p>
-                
-              </p>
-              <p>
-                Si estás buscando a alguien que pueda ayudarte a llevar tus proyectos al siguiente nivel, ¡no dudes en
-                contactarme!.
-              </p>
-
             </div>
 
           </div>
