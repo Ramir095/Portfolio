@@ -6,7 +6,7 @@ const About = () => {
     >
   
       <div className="flex flex-col w-[95%] h-[70%]">
-        <span className="h-[10%] flex items-center text-4xl md:w-full justify-center">
+        <span className="h-[10%] flex items-center text-4xl md:w-full justify-center md:mt-5 2xl:mt-2">
           <h1 className="w-[81%] font-['Cormorant'] md:text-center md:text-6xl">Perfil Profesional</h1>
         </span>
 
@@ -15,9 +15,9 @@ const About = () => {
             <p>Lado izquierdo</p>
           </div>
 
-          <div className="md:w-1/2 flex justify-center items-center mt-10">
+          <div className="md:w-1/2 flex justify-center items-center md:mt-10">
 
-            <div className="px-4 space-y-7 w-[90%] md:px-0">
+            <div className="px-4 space-y-7 w-[90%] md:px-0 md:mt-5">
 
               <h1 className="text-2xl md:text-4xl font-['Cormorant']">Kevin Ramiro Aduviri</h1>
 
