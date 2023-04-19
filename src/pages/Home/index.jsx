@@ -21,7 +21,6 @@ const Home = () => {
       <SideBar />
       <div className="md:w-screen h-screen md:ml-[6rem]">
         <Presentation />
-        
         <div className="relative flex w-full">
           <div className="w-full">
             <About />
