@@ -21,8 +21,7 @@ const About = () => {
 
               <h1 className="text-2xl md:text-4xl font-['Cormorant']">Kevin Ramiro Aduviri</h1>
 
-              <div >
-                
+              <div className="space-y-2">             
                 <div className="flex items-center justify-center">
                   <img
                     src="https://icongr.am/fontawesome/map-marker.svg?size=128&color=F2F2F2"
@@ -54,11 +53,9 @@ const About = () => {
 
 
               <ul className="space-y-7">
-                <li>Apasionado por el frontend, por la creación de experiencias
-                visuales atractivas y funcionales para el usuario.</li>
-                <li>Enfocado en
-                mejorar mis habilidades para ofrecer soluciones más efectivas a
-                mis proyectos.</li>
+                <li>Apasionado por el desarrollo de software, en espacial el frontend. Enfocado en la creación de experiencias visualmente atractivas y funcionales para el usuario.</li>
+                <li>Enfocado en mejorar mis habilidades para ofrecer soluciones más rapidas y efectivas en
+                el menor tiempo posible a los proyectos en los que participo. <span className="text-[#8EBF45] font-bold">Mi objetivo es ser un recurso valioso y confiable para ti y para mi equipo.</span></li>
                 <li>Si estás buscando a alguien que pueda ayudarte a llevar tus proyectos al siguiente nivel, ¡no dudes en
                 contactarme!.</li>
               </ul>
