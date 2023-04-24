@@ -41,9 +41,13 @@ const About = () => {
                         "contacto@rama-dev.com"
                       );
                     }}
+                    aria-label='Copiar correo electronico en papelera'
                     className="w-4 h-4 ml-2"
                   >
-                    <img src="https://icongr.am/fontawesome/copy.svg?size=128&color=F2F2F2" />
+                    <img 
+                      src="https://icongr.am/fontawesome/copy.svg?size=128&color=F2F2F2"
+                      alt='copy'
+                    />
                   </button>
                 </div>
               </div>
