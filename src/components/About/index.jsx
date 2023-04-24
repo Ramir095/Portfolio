@@ -4,22 +4,19 @@ const About = () => {
       className="w-full h-[90vh] bg-[#2A2C39] text-white flex justify-center items-center"
       id="about"
     >
-  
-      <div className="flex flex-col w-[95%] h-[70%]">
-        <span className="h-[10%] flex items-center text-4xl md:w-full justify-center md:mt-5 2xl:mt-2">
-          <h1 className="w-[81%] font-['Cormorant'] md:text-center md:text-6xl">Perfil Profesional</h1>
-        </span>
+      <div className="flex flex-col w-[90%] space-y-5 md:space-y-10">
+        <h1 className="font-['Cormorant'] text-4xl md:text-6xl md:mb-4 flex justify-center">Perfil Profesional</h1>
 
         <div className="flex h-[90%]">
-          <div className="hidden md:flex md:w-1/2 justify-center items-center">
+          <div className="hidden md:flex md:w-[49%] justify-center items-center">
             <p>Lado izquierdo</p>
           </div>
 
-          <div className="md:w-1/2 flex justify-center items-center md:mt-10">
+          <div className="md:w-[51%] flex justify-center">
 
-            <div className="px-4 space-y-7 w-[90%] md:px-0 md:mt-5">
+            <div className="space-y-7 md:px-0 md:mt-5">
 
-              <h1 className="text-2xl md:text-4xl font-['Cormorant']">Kevin Ramiro Aduviri</h1>
+              <h1 className="hidden md:block text-2xl md:text-4xl font-['Cormorant']">Ramiro Aduviri</h1>
 
               <div className="space-y-2">             
                 <div className="flex items-center justify-center">

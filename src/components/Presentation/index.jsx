@@ -2,7 +2,7 @@ import Circle from "../Circle";
 
 import perfil from "../../assets/perfil.png";
 import download from "../../assets/download.svg";
-import curriculum from "../../assets/Kevin_Aduviri_CV.pdf"
+import curriculum from "../../assets/Cv_RamiroAduviri_Full_Stack.pdf"
 import profile from "../../assets/portrait.webp"
 
 
@@ -91,7 +91,7 @@ const Presentation = () => {
           <a
             href={curriculum}
             download="Kevin_Aduviri_CV.pdf"
-            className="w-[242px] h-[85px] border-solid border-[1px] border-[#3b3d49] rounded-[42px] flex justify-center items-center bg-[#2E3140] hover:bg-[#2A2C39] transition-all duration-[0.5s] hover:border-none"
+            className="w-[242px] h-[85px] border-solid border-[2px] border-[#3b3d49] rounded-[42px] flex justify-center items-center bg-[#2E3140] hover:bg-[#2A2C39] transition-all duration-[0.5s] hover:border-none"
           >
             <p>Ver Curriculum</p>
             <img

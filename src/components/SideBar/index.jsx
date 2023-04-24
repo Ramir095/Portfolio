@@ -1,7 +1,5 @@
 import { Link } from "react-scroll"; 
 import dev from "../../assets/dev.png";
-import git from "../../assets/git.svg";
-import init from "../../assets/Inicio.svg";
 import skills from "../../assets/skills.svg";
 import about from "../../assets/about.svg";
 import proyects from "../../assets/proyects.svg";
@@ -9,7 +7,7 @@ import proyects from "../../assets/proyects.svg";
 const SideBar = () => {
   return (
     <div
-      className="bg-[#2A2C39] w-full fixed h-16 z-10 flex justify-between items-center px-4 text-[1rem] md:w-[6rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between md:py-6"
+      className="bg-[#2A2C39] w-full fixed h-16 z-10 flex justify-between items-center px-4 text-[1rem] md:w-[5rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between md:py-6"
     >
           <Link
             to="home" spy={true} smooth={true} offset={-150} duration={500}
@@ -79,17 +77,3 @@ const SideBar = () => {
 };
 
 export default SideBar;
-
-        {/* <img
-          className="md:hidden w-[2.5rem] h-[2.5rem]"
-          src={dev}
-          alt="logo en construccion"
-        /> */}
-
-{/* <div className="hidden md:flex flex-col justify-end space-y-3 w-full items-center absolute bottom-8">
-  {new Array(6).fill(0).map((_dot) => (
-    <div className="border-4 border-[#9da5ac00] rounded-xl hover:border-[#9da5ac] cursor-pointer transition-all duration-100  hover:bg-[#9da5ac]">
-      <div className="w-3 h-3 bg-[#9da5ac] rounded-lg"></div>
-    </div>
-  ))}
-</div> */}
