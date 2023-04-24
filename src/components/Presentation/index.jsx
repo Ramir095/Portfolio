@@ -1,9 +1,8 @@
 import Circle from "../Circle";
 
-import perfil from "../../assets/perfil.png";
+import perfil from "../../assets/perfil.webp";
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/Cv_RamiroAduviri_Full_Stack.pdf"
-import profile from "../../assets/portrait.webp"
 
 
 const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all"
