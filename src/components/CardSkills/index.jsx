@@ -22,7 +22,7 @@ export const CardSkills = ({ data }) => {
         </span>
       </div>
 
-        <header className='flex w-full h-full justify-center py-[4.8rem]'>
+        <header className='flex w-full h-full justify-center items-center md:items-start md:py-[4.8rem]'>
           <div className=' space-y-8'>
             <img className='w-14 h-14' src={img} alt='Imagen de la las etiquetas' />
             <h1 className='text-3xl'>{title}</h1>

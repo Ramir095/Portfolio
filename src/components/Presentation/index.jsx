@@ -34,6 +34,7 @@ const Presentation = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`absolute right-[4.6rem] top-[-1.1rem] md:right-[5rem] md:top-[-4.5rem] ${commonClass}`}
+                aria-label='Dirigirse a LinkedIn de Ramiro'
               >
                <i className="fa-brands fa-linkedin-in text-[2.1rem] md:text-[1.65rem] md:mb-0.5"></i>
               </a>
@@ -43,6 +44,7 @@ const Presentation = () => {
                 href="https://github.com/Ramir095"
                 target={"_blank"}
                 rel="noopener noreferrer"
+                aria-label='Dirigirse a Github de Ramiro'
               >
                 <i className="fa-brands fa-github text-[2rem] md:text-[2rem]"></i>
               </a>
@@ -52,6 +54,7 @@ const Presentation = () => {
                 href="https://twitter.com/KeduDev"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label='Dirigirse a Twitter de Ramiro'
               >
                 <i className="fa-brands fa-twitter text-[2rem] md:text-[1.7rem] md:mt-0.5"></i>
               </a>
@@ -60,6 +63,7 @@ const Presentation = () => {
                 href="mailto:contacto@rama-dev.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label='Enviar un correo electrónico a Ramiro'
               >
                 <i className="fa-solid fa-envelope-circle-check text-[1.7rem]
                 md:text-[1.5rem] md:ml-1 md:mb-0.5"></i>
