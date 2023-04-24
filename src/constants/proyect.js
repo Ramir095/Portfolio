@@ -5,12 +5,17 @@ import citas from '../assets/imgComplet/citas.webp';
 import video from '../assets/videos/GrabaciónRefugio.gif';
 import recipesGif from '../assets/videos/GrabaciónRecipes.gif';
 import costGif from '../assets/videos/GrabaciónCosto.gif';
-import citasGif from '../assets/videos/GrabaciónCitas.gif'
+import citasGif from '../assets/videos/GrabaciónCitas.gif';
+import refugioPhone from '../assets/phone/refugio.jpg'
+import recipesPhone from '../assets/phone/recipes.jpg'
+import controlPhone from '../assets/phone/control.jpg'
+import citasPhone from '../assets/phone/citas.jpg'
 
 export const proyect = [
   {
     title: 'Refugio Animal',
     img: video,
+    imgPhone: refugioPhone,
     description: 'Este proyecto, realizado para un refugio real, facilita la etapa de adopción de animales rescatados y la administración tanto de las donaciones como de las solicitudes de adopción',
     left: true,
     background: fundacionAnimal,
@@ -30,6 +35,7 @@ export const proyect = [
   {
     title: 'Recetas Vegetarianas',
     img: recipesGif,
+    imgPhone: recipesPhone,
     description: 'Página donde puedes visualizar las mejores recetas tanto vegetarianas como veganas. Si estás buscando ideas deliciosas y saludables para tus comidas sin carne, este lugar es el indicado',
     background: recipes,
     left: false,
@@ -49,6 +55,7 @@ export const proyect = [
   {
     title: 'Planificador De Gastos',
     img: costGif,
+    imgPhone: controlPhone,
     description: 'Esta herramienta te permitirá controlar de manera sencilla y rápida tu dinero. Podrás ahorrar tiempo y esfuerzo en tus cálculos y asegurarte de que estás tomando decisiones informadas y precisas',
     left: true,
     background: cost,
@@ -68,6 +75,7 @@ export const proyect = [
   {
     title: 'Administración De Citas',
     img: citasGif,
+    imgPhone: citasPhone,
     description: 'Este servicio te permitire programar una cita en línea de manera rápida y fácil. Olvídate de las largas esperas en la clínica veterinaria y programa tu cita desde la comodidad de tu hogar o trabajo',
     left: false,
     background: citas,
