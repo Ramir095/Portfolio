@@ -20,8 +20,8 @@ const Proyect = ({ img, title, description, buttons, left, background, imgPhone 
             <p className="w-[95%] m-auto md:w-full">{description}</p>
             <div className="flex space-x-10 justify-center items-center">
               {buttons &&
-                buttons.map((b) => (
-                  <Button cn={b.cn} url={b.url} text={b.text} />
+                buttons.map((b, i) => (
+                  <Button key={i} cn={b.cn} url={b.url} text={b.text} />
                 ))}
             </div>
           </div>
