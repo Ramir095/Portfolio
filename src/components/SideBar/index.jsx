@@ -7,7 +7,7 @@ import proyects from "../../assets/proyects.svg";
 const SideBar = () => {
   return (
     <div
-      className="bg-[#2A2C39] w-full fixed h-16 z-10 flex justify-between items-center px-4 text-[1rem] md:w-[5rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between md:py-6"
+      className="bg-[#2A2C39] w-full fixed h-16 z-20 flex justify-between items-center px-4 text-[1rem] md:w-[5rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between md:py-6"
     >
           <Link
             to="home" spy={true} smooth={true} offset={-150} duration={500}
