@@ -2,14 +2,16 @@ import fundacionAnimal from '../assets/imgComplet/fundacionAnimal.webp';
 import recipes from '../assets/imgComplet/recipes.webp';
 import cost from '../assets/imgComplet/const.webp';
 import citas from '../assets/imgComplet/citas.webp';
+
 import video from '../assets/videos/GrabaciónRefugio.gif';
 import recipesGif from '../assets/videos/GrabaciónRecipes.gif';
 import costGif from '../assets/videos/GrabaciónCosto.gif';
 import citasGif from '../assets/videos/GrabaciónCitas.gif';
-import refugioPhone from '../assets/phone/refugio.jpg'
-import recipesPhone from '../assets/phone/recipes.jpg'
-import controlPhone from '../assets/phone/control.jpg'
-import citasPhone from '../assets/phone/citas.jpg'
+
+import refugioPhone from '../assets/phone/refugio.webp'
+import recipesPhone from '../assets/phone/recipes.webp'
+import controlPhone from '../assets/phone/control.webp'
+import citasPhone from '../assets/phone/citas.webp'
 
 export const proyect = [
   {
