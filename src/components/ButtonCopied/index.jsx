@@ -20,7 +20,7 @@ export const ButtonCopied = () => {
       // 
     >
       {
-        copied && <p className='font-bold text-[0.8rem] bg-[white] text-[#000000] absolute bottom-7 left-[-1.8rem] p-2 rounded-xl'>¡Copiado!</p>
+        copied && <p className='font-bold text-[0.8rem] bg-[white] text-[#000000] absolute bottom-7 left-[-1.95rem] 2xl:left-[-1.8rem] p-2 rounded-xl'>¡Copiado!</p>
       }
       <img 
         src="https://icongr.am/fontawesome/copy.svg?size=128&color=F2F2F2"
