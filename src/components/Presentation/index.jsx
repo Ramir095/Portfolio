@@ -11,7 +11,7 @@ const commonClass = "bg-[#2E3140] w-[2.8rem] h-[2.8rem] md:w-[3rem] md:h-[3rem] 
 
 const Presentation = () => {
   return (
-    <div className="h-screen xl:max-w-full flex justify-center items-center flex-col lg:flex-row-reverse xl:pr-[11rem] 2xl:pr-[12rem] lg:space-x-0 xl:space-x-[-15rem] 2xl:space-x-[-10rem] flex-wrap space-y-2 md:space-y-0 lg:space-y-0 overflow-hidden" id="home">
+    <div className="h-screen xl:max-w-full flex justify-center items-center flex-col lg:flex-row-reverse xl:pr-[11rem] 2xl:pr-[11.5rem] lg:space-x-0 xl:space-x-[-15rem] 2xl:space-x-[-10rem] flex-wrap space-y-2 md:space-y-0 lg:space-y-0 overflow-hidden" id="home">
 
       <Circle big={"lg:top-[-21rem] lg:left-[-11rem]"} medium={"top-[-15.3rem] left-[-6rem]"} small={"top-[-14.3rem] left-[-5rem]"} />
 
@@ -19,17 +19,17 @@ const Presentation = () => {
 
       <div className="lg:relative lg:rounded-full lg:border-solid lg:border-t-[1px] lg:border-r-[1px] lg:border-gray-700  lg:border-l-2 lg:border-b-[1px] lg:border-l-[#2E3140] lg:right-[0.5rem] lg:top-[8rem] xl:right-[-11rem] xl:top-[9.5rem] 2xl:right-[-12rem] 2xl:top-[5.2rem] lg:w-[23rem] lg:h-[24rem] xl:w-[35rem] xl:h-[35rem]">
 
-        <div className="relative xl:block xl:absolute top-[-2.5rem] rounded-full w-[18rem] h-[18rem] md:top-[-2rem] md:w-[28rem] md:h-[28rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-7 right-[0.1rem] md:right-[1rem] xl:right-[3rem] xl:top-1 xl:h-[31rem] xl:w-[31rem] lg:right-[-1.2rem] lg:top-[0.2rem] lg:h-[20rem] lg:w-[19rem]">
+        <div className="relative xl:block xl:absolute top-[-1rem] rounded-full w-[18rem] h-[18rem] md:top-[-2rem] md:w-[28rem] md:h-[28rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-7 right-[0.1rem] md:right-[1rem] xl:right-[3rem] xl:top-1 xl:h-[31rem] xl:w-[31rem] lg:right-[-1.2rem] lg:top-[0.2rem] lg:h-[20rem] lg:w-[19rem]">
 
           <div className="lg:absolute lg:rounded-full lg:border-solid lg:border-t-[1px] lg:border-r-[1px] lg:border-gray-700 lg:border-l-8 lg:border-l-[#2E3140] lg:border-b-[1px] lg:right-[2.5rem] lg:top-9 xl:right-[3rem] xl:top-9 xl:w-[30rem] xl:h-[27rem] lg:w-[19rem] lg:h-[16rem]">
 
-            <div className="left-[0.6rem] bottom-[-2rem] md:bottom-[-1.5rem] md:left-[1rem] ml-[-40px] absolute lg:w-[33rem] lg:h-0 xl:w-[33rem] xl:h-0 lg:top-[-10rem] lg:left-[-1rem] xl:left-[-0.5rem] xl:top-[-13.3rem]">
+            <div className="left-[0.6rem] bottom-[-0.5rem] md:bottom-[-1.5rem] md:left-[1rem] ml-[-40px] absolute lg:w-[33rem] lg:h-0 xl:w-[33rem] xl:h-0 lg:top-[-10rem] lg:left-[-1rem] xl:left-[-0.5rem] xl:top-[-13.3rem]">
 
-              <div className="absolute w-20 h-32 top-[1rem] right-[12.3rem] md:top-[8rem] md:right-[17.8rem] lg:right-[20rem] lg:top-[10rem] bg-[#2E3140] z-10" />
+              <div className="absolute w-28 h-40 top-[1rem] right-[11.3rem] md:top-[8rem] md:right-[17.8rem] lg:right-[20rem] lg:top-[10rem] bg-[#2E3140] z-10" />
               <img
                 src={perfil}
                 alt="perfil"
-                className="z-20 lg:absolute w-[19rem] h-[26rem] md:w-[28rem] md:h-[39rem] lg:w-[22rem] lg:h-[30rem] xl:w-[33rem] xl:h-[45rem]"
+                className="z-20 relative lg:absolute w-[19rem] h-[26rem] md:w-[28rem] md:h-[39rem] lg:w-[22rem] lg:h-[30rem] xl:w-[33rem] xl:h-[45rem]"
               />
             </div>
 
@@ -55,7 +55,7 @@ const Presentation = () => {
               </a>
 
               <a
-                className={`absolute right-[-1.3rem] top-[7.6rem] md:right-[-1.7rem] md:top-[12.3rem] lg:right-[-4.1rem] lg:top-[7.5rem] xl:right-[-5.2rem] xl:top-[12.5rem] 2xl:right-[-4.9rem] 2xl:top-[12.9rem] ${commonClass}`}
+                className={`absolute right-[-1.4rem] top-[7.6rem] md:right-[-1.7rem] md:top-[12.3rem] lg:right-[-4.1rem] lg:top-[7.5rem] xl:right-[-5.2rem] xl:top-[12.5rem] 2xl:right-[-4.9rem] 2xl:top-[12.9rem] ${commonClass}`}
                 href="https://twitter.com/KeduDev"
                 target="_blank"
                 rel="noopener noreferrer"
