@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="md:flex bg-[#2E3140] text-[#F2F2F2] font-['Poppins']">
       <SideBar />
-      <div className="md:ml-[5rem]">
+      <div className="lg:ml-[5rem]">
         <Presentation />
         <div className="relative flex">
           <div className="w-full">

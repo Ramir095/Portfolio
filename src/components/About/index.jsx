@@ -3,18 +3,18 @@ import { ButtonCopied } from "../ButtonCopied";
 const About = () => {
   return (
     <div
-      className="w-full h-[90vh] bg-[#2A2C39] text-white flex justify-center items-center"
+      className="w-full h-[90vh] md:h-[65vh] lg:h-[100vh] xl:h-[90vh] bg-[#2A2C39] text-white flex justify-center items-center overflow-hidden"
       id="about"
     >
-      <div className="flex flex-col w-[90%] space-y-5 md:space-y-10">
-        <h1 className="font-['Cormorant'] text-4xl md:text-6xl md:mb-4 flex justify-center">Perfil Profesional</h1>
+      <div className="flex flex-col w-[90%] space-y-3 xl:space-y-10">
+        <h1 className="font-['Cormorant'] text-5xl md:text-6xl md:mb-4 flex justify-center">Sobre mi</h1>
 
         <div className="flex h-[90%]">
-          <div className="hidden md:flex md:w-[49%] justify-center items-center">
+          <div className="hidden xl:flex md:w-[49%] justify-center items-center">
             <p>Lado izquierdo</p>
           </div>
 
-          <div className="md:w-[51%] flex justify-center">
+          <div className=" md:h-[50%] md:w-full xl:w-[51%] flex justify-center">
 
             <div className="space-y-7 md:px-0 md:mt-5">
 

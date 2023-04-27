@@ -7,35 +7,35 @@ import proyects from "../../assets/proyects.svg";
 const SideBar = () => {
   return (
     <div
-      className="bg-[#2A2C39] w-full fixed h-16 z-20 flex justify-between items-center px-4 text-[1rem] md:w-[5rem] md:h-screen md:flex md:flex-col md:items-center md:justify-between md:py-6"
+      className="bg-[#2A2C39] w-full fixed h-16 z-50 flex justify-between items-center px-4 text-[1rem] lg:w-[5rem] lg:h-screen lg:flex lg:flex-col lg:items-center lg:justify-between lg:py-6"
     >
           <Link
             to="home" spy={true} smooth={true} offset={-150} duration={500}
           >
-            <div className="cursor-pointer md:flex md:w-[3.2rem] md:h-14 md:overflow-hidden md:hover:w-36 md:duration-300 md:transition-all md:hover:bg-[#2A2C39] md:hover:rounded-xl md:hover:ml-[5.7rem]">
+            <div className="cursor-pointer lg:flex lg:w-[3.2rem] lg:h-14 lg:overflow-hidden lg:hover:w-36 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[5.7rem]">
               <img
                 src={dev}
                 alt="logotico de mi pagina"
-                className="w-[2.5rem] h-[2.5rem] md:w-[3rem] md:h-14"
+                className="w-[2.5rem] h-[2.5rem] lg:w-[3rem] lg:h-14"
               />
-              <p className=" hidden hover:text-[#8EBF45] md:flex md:items-center md:ml-4 md:text-lg">
+              <p className="hidden hover:text-[#8EBF45] lg:flex lg:items-center lg:ml-4 lg:text-lg">
                 Inicio
               </p>
             </div>
           </Link>
 
-        <div className="flex items-center w-[15rem] justify-between md:flex-col md:space-y-3">
+        <div className="flex items-center w-[15rem] justify-between lg:flex-col lg:space-y-3">
 
           <Link
             to="about" spy={true} smooth={true} offset={0} duration={500}
           >
-            <div className="cursor-pointer md:flex md:w-[2.1rem] md:h-[2.1rem] md:overflow-hidden md:cursor-pointer md:hover:w-44 md:duration-300 md:transition-all md:hover:bg-[#2A2C39] md:hover:rounded-xl md:hover:ml-[8.9rem]">
+            <div className="cursor-pointer lg:flex lg:w-[2.1rem] lg:h-[2.1rem] lg:overflow-hidden lg:cursor-pointer lg:hover:w-44 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[8.9rem]">
               <img
                 src={about}
                 alt="img de habilidades"
-                className="hidden md:block cursor-pointer"
+                className="hidden lg:block cursor-pointer"
               />
-              <p className="hover:text-[#8EBF45] md:flex md:items-center md:ml-9 md:text-lg">
+              <p className="hover:text-[#8EBF45] lg:flex lg:items-center lg:ml-9 lg:text-lg">
                 Datos
               </p>
             </div>
@@ -44,14 +44,14 @@ const SideBar = () => {
           <Link
             to="skills" spy={true} smooth={true} offset={0} duration={500}
           >
-            <div className="cursor-pointer md:flex md:w-7 md:h-7 md:overflow-hidden md:hover:w-44 md:duration-300 md:transition-all md:hover:bg-[#2A2C39] md:hover:rounded-xl md:hover:ml-[9.2rem]">
+            <div className="cursor-pointer lg:flex lg:w-7 lg:h-7 lg:overflow-hidden lg:hover:w-44 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[9.2rem]">
               <img
                 src={skills}
                 alt="img de portafolio"
-                className="hidden md:block cursor-pointer"
+                className="hidden lg:block cursor-pointer"
               />
 
-              <p className="hover:text-[#8EBF45] md:flex md:items-center md:ml-5 md:text-lg">
+              <p className="hover:text-[#8EBF45] lg:flex lg:items-center lg:ml-5 lg:text-lg">
                 Habilidades
               </p>
             </div>
@@ -60,13 +60,13 @@ const SideBar = () => {
           <Link
             to="proyects" spy={true} smooth={true} offset={50} duration={500}
           >
-            <div className="cursor-pointer md:flex md:w-8 md:h-8 md:overflow-hidden md:cursor-pointer md:hover:w-44 md:duration-300 md:transition-all md:hover:bg-[#2A2C39] md:hover:rounded-xl md:hover:ml-[9rem]">
+            <div className="cursor-pointer lg:flex lg:w-8 lg:h-8 lg:overflow-hidden lg:cursor-pointer lg:hover:w-44 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[9rem]">
               <img
                 src={proyects}
                 alt="img de habilidades"
-                className="hidden md:block cursor-pointer"
+                className="hidden lg:block cursor-pointer"
               />
-              <p className="hover:text-[#8EBF45] md:flex md:items-center md:ml-6 md:text-lg">
+              <p className="hover:text-[#8EBF45] lg:flex lg:items-center lg:ml-6 lg:text-lg">
                 Proyectos
               </p>
             </div>
