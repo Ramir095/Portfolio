@@ -8,7 +8,7 @@ const About = () => {
       id="about"
     >
       <div className="flex flex-col w-[90%] space-y-0 md:space-y-3 lg:space-y-0 xl:space-y-5 2xl:space-y-8">
-        <h1 className="font-['Cormorant'] text-5xl md:text-6xl md:mb-4 flex justify-center">Sobre Mi</h1>
+        <h1 className="font-['Cormorant'] text-4xl md:text-6xl md:mb-4 flex justify-center">Sobre Mi</h1>
 
         <div className="flex h-[90%]">
           <div className="hidden xl:flex md:w-[49%] 2xl:w-[45%] justify-center items-center">
