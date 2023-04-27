@@ -10,12 +10,12 @@ const SideBar = () => {
       className="bg-[#2A2C39] w-full fixed h-16 z-50 flex justify-between items-center px-4 text-[1rem] lg:w-[5rem] lg:h-screen lg:flex lg:flex-col lg:items-center lg:justify-between lg:py-6"
     >
           <Link
-            to="home" spy={true} smooth={true} offset={-150} duration={500}
+            to="home" href="#home" spy={true} smooth={true} offset={-150} duration={500}
           >
             <div className="cursor-pointer lg:flex lg:w-[3.2rem] lg:h-14 lg:overflow-hidden lg:hover:w-36 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[5.7rem]">
               <img
                 src={dev}
-                alt="logotico de mi pagina"
+                alt="logo de mi página"
                 className="w-[2.5rem] h-[2.5rem] lg:w-[3rem] lg:h-14"
               />
               <p className="hidden hover:text-[#8EBF45] lg:flex lg:items-center lg:ml-4 lg:text-lg">
@@ -27,7 +27,7 @@ const SideBar = () => {
         <div className="flex items-center w-[15rem] justify-between lg:flex-col lg:space-y-3">
 
           <Link
-            to="about" spy={true} smooth={true} offset={0} duration={500}
+            to="about" href="#about" spy={true} smooth={true} offset={-50} duration={500}
           >
             <div className="cursor-pointer lg:flex lg:w-[2.1rem] lg:h-[2.1rem] lg:overflow-hidden lg:cursor-pointer lg:hover:w-44 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[8.9rem]">
               <img
@@ -42,7 +42,7 @@ const SideBar = () => {
           </Link>
 
           <Link
-            to="skills" spy={true} smooth={true} offset={0} duration={500}
+            to="skills" href="#skills" spy={true} smooth={true} offset={0} duration={500}
           >
             <div className="cursor-pointer lg:flex lg:w-7 lg:h-7 lg:overflow-hidden lg:hover:w-44 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[9.2rem]">
               <img
@@ -58,7 +58,7 @@ const SideBar = () => {
           </Link>
 
           <Link
-            to="proyects" spy={true} smooth={true} offset={50} duration={500}
+            to="proyects" href="#proyects" spy={true} smooth={true} offset={50} duration={500}
           >
             <div className="cursor-pointer lg:flex lg:w-8 lg:h-8 lg:overflow-hidden lg:cursor-pointer lg:hover:w-44 lg:duration-300 lg:transition-all lg:hover:bg-[#2A2C39] lg:hover:rounded-xl lg:hover:ml-[9rem]">
               <img
