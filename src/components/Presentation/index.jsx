@@ -1,87 +1,93 @@
 import Circle from "../Circle";
 
-import perfil from "../../assets/perfil.webp";
+import perfil from "../../assets/select-removebg-previewA.png";
+
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/Cv_RamiroAduviri_Full_Stack.pdf"
 
 
-const commonClass = "bg-[#2E3140] md:w-[3.8rem] md:h-[3.8rem] md:rounded-full md:border-solid md:border-2 md:border-gray-600 md:flex md:items-center md:justify-center md:hover:bg-slate-50 md:hover:text-[black] hover:md:border-slate-50 transition-all"
+const commonClass = "bg-[#2E3140] w-[2.8rem] h-[2.8rem] md:w-[3rem] md:h-[3rem] lg:w-[3.8rem] lg:h-[3.8rem] rounded-full border-solid border-2 border-gray-600 flex items-center justify-center hover:bg-slate-50 hover:text-[black] hover:border-slate-50 transition-all"
 
 
 const Presentation = () => {
   return (
-    <div className=" h-screen max-w-full flex justify-center items-center flex-col md:flex-row-reverse md:justify-center md:mr-[11rem] flex-wrap" id="home">
+    <div className="h-screen xl:max-w-full flex justify-center items-center flex-col lg:flex-row-reverse xl:ml-[-6rem] xl:space-x-[-10rem] lg:space-x-36 flex-wrap space-y-2 md:space-y-0 lg:space-y-0 overflow-hidden" id="home">
 
-      <Circle big={"md:top-[-21rem] md:left-[-11rem]"} medium={"top-[-15.3rem] left-[-6rem]"} small={"top-[-14.3rem] left-[-5rem]"} />
+      <Circle big={"lg:top-[-21rem] lg:left-[-11rem]"} medium={"top-[-15.3rem] left-[-6rem]"} small={"top-[-14.3rem] left-[-5rem]"} />
 
-      <Circle big={"md:bottom-[-21rem] md:left-[-11rem]"} medium={"bottom-[-15.3rem] left-[-6rem]"} small={"bottom-[-14.3rem] left-[-5rem]"}/>
+      <Circle big={"lg:bottom-[-21rem] lg:left-[-11rem]"} medium={"bottom-[-15.3rem] left-[-6rem]"} small={"bottom-[-14.3rem] left-[-5rem]"}/>
 
-      <div className="md:relative md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700  md:border-l-2 md:border-b-[1px] md:border-l-[#2E3140] md:w-[35rem] md:h-[34rem] md:right-[-12rem] md:top-[4rem] md:ml-[-8rem]">
+      <div className="xl:relative lg:rounded-full lg:border-solid lg:border-t-[1px] lg:border-r-[1px] lg:border-gray-700  lg:border-l-2 lg:border-b-[1px] lg:border-l-[#2E3140] lg:right-[-14rem] lg:top-[-2rem] xl:right-[-11rem] xl:top-[9.5rem] 2xl:right-[-12rem] 2xl:top-[5.2rem] xl:w-[35rem] xl:h-[35rem]">
 
-        <div className="relative rounded-full w-[16rem] h-[16rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-10 md:h-[29rem] md:w-[29rem] right-[-0.8rem] md:right-[-2.5rem] md:top-1 ">
+        <div className="relative lg:hidden xl:block xl:absolute top-[-2.5rem] rounded-full w-[16rem] h-[18rem] md:top-[-2rem] md:w-[28rem] md:h-[28rem] border-solid border-t-2 border-r-2 border-gray-600 border-l-2 border-l-[#2E3140] mt-7 right-[-0.8rem] md:right-[1rem] xl:right-[3rem] xl:top-1 xl:h-[31rem] xl:w-[31rem] lg:right-[14rem] lg:top-[17.2rem] lg:h-[20rem] lg:w-[20rem]">
 
-          <div className="md:relative md:w-[30rem] md:h-[24rem] md:rounded-full md:border-solid md:border-t-[1px] md:border-r-[1px] md:border-gray-700 md:border-l-8 md:border-l-[#2E3140] md:border-b-[1px] md:right-[5rem] md:top-12">
+          <div className="lg:absolute lg:rounded-full lg:border-solid lg:border-t-[1px] lg:border-r-[1px] lg:border-gray-700 lg:border-l-8 lg:border-l-[#2E3140] lg:border-b-[1px] lg:right-[3rem] lg:top-9 xl:w-[30rem] xl:h-[27rem] lg:w-[19rem] lg:h-[16rem]">
 
-            <img
-              src={perfil}
-              alt="perfil"
-              className="w-60 h-[22rem] ml-[-40px] absolute bottom-[-2rem] md:w-[30rem] md:h-[42rem] md:top-[-7rem]"
-            />
+            <div className="left-[-1.5rem] bottom-[-2rem] md:bottom-[-1.5rem] md:left-[1rem] ml-[-40px] absolute lg:w-[33rem] lg:h-0 lg:top-[-9.9rem] lg:left-[5rem] xl:left-[-0.5rem] xl:top-[-13.3rem]">
+
+              <div className="absolute w-20 h-32 top-[1rem] right-[12.3rem] md:top-[8rem] md:right-[17.8rem] lg:right-[20rem] lg:top-[10rem] bg-[#2E3140] z-10" />
+              <img
+                src={perfil}
+                alt="perfil"
+                className="z-20 lg:absolute w-[19rem] h-[26rem] md:w-[28rem] md:h-[39rem] lg:w-[18rem] lg:h-[26rem] xl:w-[33rem] xl:h-[45rem]"
+              />
+            </div>
+
 
             <div>
               <a
                 href="https://www.linkedin.com/in/ramiro-aduviri/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`absolute right-[4.6rem] top-[-1.1rem] md:right-[5rem] md:top-[-4.5rem] ${commonClass}`}
+                className={`absolute z-30 right-[2.5rem] top-[-0.4rem] md:right-[4.3rem] md:top-[1rem] lg:right-[3rem] lg:top-[-2.5rem] ${commonClass}`}
                 aria-label='Dirigirse a LinkedIn de Ramiro'
               >
-               <i className="fa-brands fa-linkedin-in text-[2.1rem] md:text-[1.65rem] md:mb-0.5"></i>
+               <i className="fa-brands fa-linkedin-in text-[1.3rem] md:text-[1.5rem] xl:text-[1.65rem] mb-0.5"></i>
               </a>
 
               <a
-                className={`absolute right-0.5 top-8 md:right-[-2.8rem] md:top-2 ${commonClass}`}
+                className={`absolute right-[-0.8rem] top-11 md:right-[-0.1rem] md:top-[5.6rem] lg:right-[-3.2rem] lg:top-[3.5rem] ${commonClass}`}
                 href="https://github.com/Ramir095"
                 target={"_blank"}
                 rel="noopener noreferrer"
                 aria-label='Dirigirse a Github de Ramiro'
               >
-                <i className="fa-brands fa-github text-[2rem] md:text-[2rem]"></i>
+                <i className="fa-brands fa-github text-[1.6rem] xl:text-[2rem]"></i>
               </a>
 
               <a
-                className={`absolute right-[-1.2rem] top-[6.9rem] md:right-[-5.5rem] md:top-[9.7rem] ${commonClass}`}
+                className={`absolute right-[-1.6rem] top-[7.4rem] md:right-[-1.7rem] md:top-[12.3rem] lg:right-[-5.2rem] lg:top-[12.5rem] ${commonClass}`}
                 href="https://twitter.com/KeduDev"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label='Dirigirse a Twitter de Ramiro'
               >
-                <i className="fa-brands fa-twitter text-[2rem] md:text-[1.7rem] md:mt-0.5"></i>
+                <i className="fa-brands fa-twitter text-[1.4rem] xl:text-[1.7rem] lg:mt-0.5"></i>
               </a>
               <a
-                className={`absolute right-2 top-[11.7rem] md:right-[-2.5rem] md:top-[18.5rem] ${commonClass}`}
+                className={`absolute z-30 right-[-0.6rem] top-[12.1rem] md:right-[0.1rem] md:top-[19.2rem] lg:right-[-1.5rem] lg:top-[21.1rem] ${commonClass}`}
                 href="mailto:contacto@rama-dev.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label='Enviar un correo electrónico a Ramiro'
               >
-                <i className="fa-solid fa-envelope-circle-check text-[1.7rem]
-                md:text-[1.5rem] md:ml-1 md:mb-0.5"></i>
+                <i className="fa-solid fa-envelope-circle-check text-[1.3rem]
+                lg:text-[1.5rem] ml-1 lg:mb-0.5"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
         
-      <div className="flex flex-col h-40 mt-14 items-center text-center md:h-full md:mt-0 md:pt-8 md:justify-evenly md:items-start md:text-start">
+      <div className="flex flex-col h-40 mt-14 items-center text-center lg:h-full lg:mt-0 lg:pt-8 lg:justify-evenly lg:items-start lg:text-start">
         <div className="font-['Cormorant'] z-0">
-          <h1 className="text-5xl md:text-6xl">¡Hola! Soy</h1>
+          <h1 className="text-5xl md:text-6xl lg:text-5xl xl:text-6xl">¡Hola! Soy</h1>
 
-          <h2 className="flex text-5xl text-[#8EBF45] md:text-8xl">
+          <h2 className="flex text-5xl md:text-[5rem] text-[#8EBF45] lg:text-7xl xl:text-8xl">
             Ramiro
-            <span className="block pl-[0.57rem] md:pl-[1.14rem]">
+            <span className="block pl-[0.57rem] lg:pl-[1.14rem]">
               Aduviri
-              <div className="hidden md:block absolute w-[19rem] ml-[-1rem] h-5 bg-[url('https://htmldemo.net/lendex/lendex/assets/images/icon/hero-name-mark-shape.png')] mt-[-0.2rem]">
+              <div className="hidden lg:block absolute w-[19rem] ml-[-1rem] h-5 bg-[url('https://htmldemo.net/lendex/lendex/assets/images/icon/hero-name-mark-shape.png')] mt-[-0.2rem]">
               </div>
             </span> 
           </h2>

@@ -3,7 +3,7 @@ import arrowsRigth from '../../assets/arrowsRight.svg'
 export const CardSkills = ({ data }) => {
   const { img, title, skill } = data;
   return (
-    <div className='md:w-[22rem] h-[32.2rem] bg-[#2A2C39] relative overflow-hidden cardSkill'>
+    <div className='md:w-[25rem] lg:w-[22rem] h-[32.2rem] bg-[#2A2C39] relative overflow-hidden cardSkill'>
       
       <div className="circles">
         <span className={`hidden md:block md:absolute md:rounded-full md:border-solid md:border-2 md:border-r-2 md:border-gray-700 md:w-[25rem] md:h-[25rem] bottom-[22rem] left-[10.7rem]`}>

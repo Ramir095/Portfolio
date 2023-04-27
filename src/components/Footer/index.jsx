@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" hidden w-20 h-screen md:flex flex-col items-center justify-center sticky right-0 bg-[#2A2C39] top-0">
+    <div className=" hidden w-20 h-screen lg:flex flex-col items-center justify-center sticky right-0 bg-[#2A2C39] top-0">
       <div className="z-[100] text-[#9da5ac]">
         <div
           className="py-5 cursor-pointer hover:text-[#F2F2F2] transition-all duration-300 rounded-xl"
