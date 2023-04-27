@@ -1,6 +1,6 @@
 import Circle from "../Circle";
 
-import perfil from "../../assets/select-removebg-previewA.png";
+import perfil from "../../assets/select-removebg-previewA.webp";
 
 import download from "../../assets/download.svg";
 import curriculum from "../../assets/Cv_RamiroAduviri_Full_Stack.pdf"
