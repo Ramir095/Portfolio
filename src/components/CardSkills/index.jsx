@@ -3,8 +3,7 @@ import arrowsRigth from '../../assets/arrowsRight.svg'
 export const CardSkills = ({ data }) => {
   const { img, title, skill } = data;
   return (
-    <div className='md:w-[25rem] lg:w-[22rem] h-[32.2rem] bg-[#2A2C39] relative overflow-hidden cardSkill'>
-      
+    <div className='md:w-[25rem] lg:w-[15rem] xl:w-[20rem] 2xl:w-[22rem] h-[32.2rem] bg-[#2A2C39] relative overflow-hidden cardSkill'>      
       <div className="circles">
         <span className={`hidden md:block md:absolute md:rounded-full md:border-solid md:border-2 md:border-r-2 md:border-gray-700 md:w-[25rem] md:h-[25rem] bottom-[22rem] left-[10.7rem]`}>
         </span>
@@ -22,10 +21,10 @@ export const CardSkills = ({ data }) => {
         </span>
       </div>
 
-        <header className='flex w-full h-full justify-center items-center md:items-start md:py-[4.8rem]'>
-          <div className=' space-y-8'>
+        <header className='flex w-full h-full justify-center items-center md:items-start md:py-[4.6rem]'>
+          <div className='space-y-8'>
             <img className='w-14 h-14' src={img} alt='Imagen de la las etiquetas' />
-            <h1 className='text-3xl'>{title}</h1>
+            <h1 className='text-3xl lg:text-xl xl:text-3xl'>{title}</h1>
             <div className='space-y-2'>
               {
                 skill && skill.map((s, i) => (
