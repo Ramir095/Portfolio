@@ -55,7 +55,7 @@ const Presentation = () => {
               </a>
 
               <a
-                className={`absolute right-[-1.4rem] top-[7.6rem] md:right-[-1.7rem] md:top-[12.3rem] lg:right-[-4.1rem] lg:top-[7.5rem] xl:right-[-5.2rem] xl:top-[12.5rem] 2xl:right-[-4.9rem] 2xl:top-[12.9rem] ${commonClass}`}
+                className={`absolute right-[-1.4rem] top-[7.6rem] md:right-[-1.7rem] md:top-[12.3rem] lg:right-[-4.1rem] lg:top-[7.5rem] xl:right-[-5rem] xl:top-[12.5rem] 2xl:right-[-4.8rem] 2xl:top-[12.9rem] ${commonClass}`}
                 href="https://twitter.com/KeduDev"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -80,16 +80,10 @@ const Presentation = () => {
         
       <div className="flex flex-col h-40 mt-14 items-center text-center lg:h-full lg:mt-0 lg:pt-8 lg:justify-evenly lg:items-start lg:text-start">
         <div className="font-['Cormorant'] z-0">
-          <h1 className="text-5xl md:text-6xl lg:text-5xl xl:text-6xl">¡Hola! Soy</h1>
-
-          <h2 className="flex text-5xl md:text-[5rem] text-[#8EBF45] lg:text-7xl xl:text-8xl">
-            Ramiro
-            <span className="block pl-[0.57rem] lg:pl-[1.14rem]">
-              Aduviri
-              <div className="hidden lg:block absolute lg:w-[15.5rem] xl:w-[19rem] ml-[-1rem] h-5 bg-[url('https://htmldemo.net/lendex/lendex/assets/images/icon/hero-name-mark-shape.png')] mt-[-0.2rem]">
-              </div>
-            </span> 
-          </h2>
+          <h2 className="text-4xl md:text-5xl lg:text-5xl xl:text-6xl">¡Hola! Soy</h2>
+          <h1 className="flex text-5xl md:text-[5rem] text-[#8EBF45] lg:text-7xl xl:text-8xl">
+            Ramiro Aduviri
+          </h1>
           <h2 className="text-2xl pt-3 font-['Poppins']">
             Full Stack Developer
           </h2>
