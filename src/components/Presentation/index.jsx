@@ -56,7 +56,7 @@ const Presentation = () => {
 
               <a
                 className={`absolute right-[-1.4rem] top-[7.6rem] md:right-[-1.7rem] md:top-[12.3rem] lg:right-[-4.1rem] lg:top-[7.5rem] xl:right-[-5rem] xl:top-[12.5rem] 2xl:right-[-4.8rem] 2xl:top-[12.9rem] ${commonClass}`}
-                href="https://twitter.com/KeduDev"
+                href="https://twitter.com/Rama_Aduviri"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label='Dirigirse a Twitter de Ramiro'
