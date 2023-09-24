@@ -4,7 +4,7 @@ import leftAbout from '../../assets/leftAbout.webp'
 const About = () => {
   return (
     <div
-      className="w-full h-[90vh] md:h-[65vh] lg:h-[100vh] xl:h-[90vh] bg-[#2A2C39] text-white flex justify-center items-center overflow-hidden"
+      className="w-full min-h-[90vh] md:h-[65vh] lg:h-[100vh] xl:h-[90vh] bg-[#2A2C39] text-white flex justify-center items-center overflow-hidden"
       id="about"
     >
       <div className="flex flex-col w-[90%] space-y-0 md:space-y-3 lg:space-y-0 xl:space-y-5 2xl:space-y-8">
