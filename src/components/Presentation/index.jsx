@@ -95,7 +95,7 @@ const Presentation = () => {
             download="Kevin_Aduviri_CV.pdf"
             className="w-[242px] h-[85px] border-solid border-[2px] border-[#3b3d49] rounded-[42px] flex justify-center items-center bg-[#2E3140] hover:bg-[#2A2C39] transition-all duration-[0.5s] hover:border-none"
           >
-            <p>Curriculum</p>
+            <p>Ver Curriculum</p>
             <img
               src={download}
               alt="download curriculum"
