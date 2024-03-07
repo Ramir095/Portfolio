@@ -8,7 +8,7 @@ const Proyect = ({ img, title, description, buttons, left, background, imgPhone 
           <figure className="lg:w-1/2 flex items-center justify-center relative overflow-hidden z-10">
             <div className='bg-[#252734f2] w-full h-full absolute' />
             <div className='-z-10 absolute'>
-              <img className='w-[70%] -rotate-45' src={background} alt='Fondo de pantalla' />
+              <img className='w-[70%] -rotate-45' src={background} alt='Fondo de pantalla ' />
             </div>
             <img src={imgPhone} alt={`Imagen del proyecto ${title}`} className='lg:hidden z-10 h-[12rem]' />
             <img src={img} alt={`Imagen del proyecto ${title}`} className='hidden lg:block lg:w-[80%] lg:h-[70%] z-10' />
